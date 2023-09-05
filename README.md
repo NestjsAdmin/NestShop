@@ -8,7 +8,7 @@
 <img src="https://img.shields.io/badge/vue-3.3.4-brightgreen"/>
 </div>
 
-一个基于Spring Cloud、Nacos、Seata、Mysql、Redis、RocketMQ、canal、ElasticSearch、minio的微服务B2B2C电商商城系统，采用主流的互联网技术架构、全新的UI设计、支持集群部署、服务注册和发现以及拥有完整的订单流程等，代码完全开源，没有任何二次封装，是一个非常适合二次开发的电商平台系统。
+一个基于NestAdmin框架开发的连锁商城系统，采用Nunapp+Vue3+Nest.js技术栈、全新的UI设计、支持集群部署、是一个非常适合连锁实体企业使用的商城系统。目前已有多位合伙商投入正式使用，并为其提供技术支持。
 
 
 ## 前言
