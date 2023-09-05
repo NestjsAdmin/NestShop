@@ -1,5 +1,12 @@
-![输入图片说明](doc/img/readme/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20211203094919.png)
-
+<div align=center>
+<img src="https://api.jnsq.gzkz.cn/uploads/file/3b43f61b8c147b3338c1c6c7514ce848_20230905184447.png" width="401.75" height="284.5" />
+</div>
+<div align=center>
+<img src="https://img.shields.io/npm/v/npm.svg?logo=nodedotjs"/>
+<img src="https://camo.githubusercontent.com/201001d3863fd1289755941ad181743b97a80f96a8c3cb15741e77ff7c9a05fa/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3532303632323831323734323831313639383f7374796c653d666c61742d737175617265266c6f676f3d6e6573746a7326636f6c6f723d613631623361"/>
+<img src="https://img.shields.io/badge/element--plus-2.3.8-green"/>
+<img src="https://img.shields.io/badge/vue-3.3.4-brightgreen"/>
+</div>
 
 一个基于Spring Cloud、Nacos、Seata、Mysql、Redis、RocketMQ、canal、ElasticSearch、minio的微服务B2B2C电商商城系统，采用主流的互联网技术架构、全新的UI设计、支持集群部署、服务注册和发现以及拥有完整的订单流程等，代码完全开源，没有任何二次封装，是一个非常适合二次开发的电商平台系统。
 
