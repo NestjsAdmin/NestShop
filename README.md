@@ -91,4 +91,4 @@ pc端：https://freshshop.shop2023.top/#/store/store
 
 ## UI 设计图
 
-- 墨刀原型图：[[https://modao.cc/app/NvdaJic3s16bfoErtPpR](https://js.design/f/bXLwLn?p=6HeVh8CrQ5)](https://js.design/f/bXLwLn?p=6HeVh8CrQ5)https://js.design/f/bXLwLn?p=6HeVh8CrQ5
+- 墨刀原型图：https://js.design/f/bXLwLn?p=6HeVh8CrQ5
