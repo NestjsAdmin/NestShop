@@ -13,13 +13,11 @@
 
 一个基于NestAdmin框架开发的连锁商城系统，采用Nunapp+Vue3+Nest.js技术栈，后台管理系统包含广告管理、门店管理、商品管理、订单管理、库存管理、权限管理、用户管理等模块。本商城致力于为连锁型企业打造一个功能完整、易于维护的连锁商城系统现，目前已有多位合伙商投入正式使用，并为其提供技术支持。
 
-## 目录说明
+## 开源版目录说明
 
 - server：后端
 - vue-admin：后台前端
 - wx-mini：微信小程序
-- cashier-pc：收银台 pc 端
-- cashier-android：收银台安卓端
 
 ## 系统部署后 API 地址
 
@@ -76,7 +74,7 @@ mall4cloud
 
 ## 演示地址
 
-pc端：https://freshshop.shop2023.top/#/store/store
+pc端：待发布..
 
 小程序端：待发布..
 
@@ -92,3 +90,22 @@ pc端：https://freshshop.shop2023.top/#/store/store
 ## UI 设计图
 
 - 原型图：https://js.design/f/bXLwLn?p=6HeVh8CrQ5
+
+## 特别鸣谢
+感谢以下的项目,排名不分先后
+
+Nest.js：[https://nest.nodejs.cn/](url)
+
+Vue3:[https://cn.vuejs.org/](url)
+
+jQuery：[http://jquery.com](url)
+
+## 版权信息
+
+开发不易如果内容帮助到您，请给我们点上星星。
+
+NestAdmin遵循Apache2开源协议发布，并提供免费使用。
+
+本项目包含的第三方源码和二进制文件之版权信息另行标注。
+
+版权所有Copyright © 2023-2028 by NestAdmin All rights reserved。
