@@ -1,0 +1,1 @@
+export const dontSharePages = ['pages/home/home']

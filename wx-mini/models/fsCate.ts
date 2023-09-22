@@ -1,0 +1,8 @@
+/**
+ * FsCateList
+ */
+export interface FsCate {
+	/** 
+	 * 
+	 * */
+}

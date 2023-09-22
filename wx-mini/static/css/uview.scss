@@ -1,0 +1,30 @@
+/* 覆盖 uview 组件样式 */
+.u-tag {
+  padding: 4rpx !important;
+  padding-right: 0 !important;
+}
+
+u-tag {
+  margin-right: 10rpx;
+}
+
+u-icon {
+  display: flex;
+  align-items: center;
+}
+
+.u-icon-minus,
+.u-icon-plus {
+  border-radius: 50% !important;
+  width: 40rpx !important;
+  height: 40rpx !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5rpx;
+  box-sizing: border-box;
+}
+
+.u-number-input {
+  background-color: white !important;
+}

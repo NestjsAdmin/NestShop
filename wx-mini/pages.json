@@ -1,0 +1,201 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/cate/cate",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"onReachBottomDistance": 0
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"onReachBottomDistance": 0
+			}
+		}
+	],
+	"subPackages": [ // 分包
+		{
+			"root": "subPages",
+			"pages": [{
+					"path": "search/search",
+					"style": {
+						"navigationBarTitleText": "搜索",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "address/address",
+					"style": {
+						"navigationBarTitleText": "选择收货地址",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "addressEdit/addressEdit",
+					"style": {
+						"navigationBarTitleText": "添加新地址",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "order/order",
+					"style": {
+						"navigationBarTitleText": "我的订单",
+						"enablePullDownRefresh": false,
+						"navigationBarBackgroundColor": "#FFFFFF"
+					}
+				},
+				{
+					"path": "goodsDetail/goodsDetail",
+					"style": {
+						"navigationBarTitleText": "商品详情",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "orderDetail/orderDetail",
+					"style": {
+						"navigationBarTitleText": "订单详情",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "payResult/payResult",
+					"style": {
+						"navigationBarTitleText": "付款",
+						"enablePullDownRefresh": false,
+						"navigationBarBackgroundColor": "#FFFFFF"
+					}
+				},
+				{
+					"path": "orderConfrim/orderConfrim",
+					"style": {
+						"navigationBarTitleText": "订单确认",
+						"enablePullDownRefresh": false,
+						"navigationBarBackgroundColor": "#FFFFFF"
+					}
+				},
+				{
+					"path": "storeSelect/storeSelect",
+					"style": {
+						"navigationBarTitleText": "选择门店",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "recharge/recharge",
+					"style": {
+						"navigationBarTitleText": "余额",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "limitGoods/limitGoods",
+					"style": {
+						"navigationBarTitleText": "限时推荐",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "swiftAddress/swiftAddress",
+					"style": {
+						"navigationBarTitleText": "修改订单收货地址",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "refundApply/refundApply",
+					"style": {
+						"navigationBarTitleText": "退款申请",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "rechargeDetail/rechargeDetail",
+					"style": {
+						"navigationBarTitleText": "充值明细",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "footprint/footprint",
+					"style": {
+						"navigationBarTitleText": "我的足迹",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "outPage/outPage",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+
+				}
+			]
+		}
+	],
+	"preloadRule": {
+		"subPages/search/search": {
+			"network": "all",
+			"packages": ["__APP__"]
+		}
+	},
+	"tabBar": {
+		"selectedColor": "#40AE36",
+		"color": "#8F92A1",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home-active.png"
+			},
+			{
+				"pagePath": "pages/cate/cate",
+				"text": "分类",
+				"iconPath": "static/tabbar/cate.png",
+				"selectedIconPath": "static/tabbar/cate-active.png"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"text": "购物车",
+				"iconPath": "static/tabbar/cart.png",
+				"selectedIconPath": "static/tabbar/cart-active.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "static/tabbar/mine.png",
+				"selectedIconPath": "static/tabbar/mine-active.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "社区生鲜商城",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

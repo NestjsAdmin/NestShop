@@ -1,0 +1,200 @@
+/* 通用样式 */
+page {
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.content {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #F8F9FA;
+  overflow-y: hidden;
+}
+
+.content-topbg {
+ @extend .content;
+ position: relative;
+ 
+  &::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    background-image: url('/static/imgs/topbg.png');
+    width: 100vw;
+    height: 564rpx;
+    background-size: 100% 100%;
+    z-index: 0;
+  }
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pd-20 {
+  padding: 20rpx;
+}
+
+.pd-10 {
+  padding: 10rpx;
+}
+
+.pd-30 {
+  padding: 30rpx;
+}
+
+.pt-10 {
+  padding-top: 10rpx;
+}
+
+.pl-10 {
+  padding-left: 10rpx;
+}
+
+.pr-10 {
+  padding-right: 10rpx;
+}
+
+.pb-10 {
+  padding-bottom: 10rpx;
+}
+
+.pt-20 {
+  padding-top: 20rpx;
+}
+
+.pl-20 {
+  padding-left: 20rpx;
+}
+
+.pr-20 {
+  padding-right: 20rpx;
+}
+
+.pb-20 {
+  padding-bottom: 20rpx;
+}
+
+.pt-30 {
+  padding-top: 30rpx;
+}
+
+.pl-30 {
+  padding-left: 30rpx;
+}
+
+.pr-30 {
+  padding-right: 30rpx;
+}
+
+.pb-30 {
+  padding-bottom: 30rpx;
+}
+
+.mg-20 {
+  margin: 20rpx 20rpx 0 20rpx;
+}
+
+.mg-30 {
+  margin: 30rpx 30rpx 0 30rpx;
+}
+
+.mt-10 {
+  margin-top: 10rpx;
+}
+
+.ml-10 {
+  margin-left: 10rpx;
+}
+
+.mr-10 {
+  margin-right: 10rpx;
+}
+
+.mb-10 {
+  margin-bottom: 10rpx;
+}
+
+.mt-20 {
+  margin-top: 20rpx;
+}
+
+.ml-20 {
+  margin-left: 20rpx;
+}
+
+.mr-20 {
+  margin-right: 20rpx;
+}
+
+.mb-20 {
+  margin-bottom: 20rpx;
+}
+
+.mt-30 {
+  margin-top: 30rpx;
+}
+
+.ml-30 {
+  margin-left: 30rpx;
+}
+
+.mr-30 {
+  margin-right: 30rpx;
+}
+
+.mb-30 {
+  margin-bottom: 30rpx;
+}
+
+.mt-40 {
+  margin-top: 40rpx;
+}
+
+.ml-40 {
+  margin-left: 40rpx;
+}
+
+.mr-40 {
+  margin-right: 40rpx;
+}
+
+.mb-40 {
+  margin-bottom: 40rpx;
+}
